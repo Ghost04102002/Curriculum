@@ -1,0 +1,128 @@
+body {
+  background: linear-gradient(45deg, #29a9ff, #000000, #82179c, #4ce027);
+  background-size: 400% 400%;
+  animation: gradient 15s linear infinite;
+  width: 100%;
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  100% {
+      background-position: 100% 50%;
+  }
+}
+
+h1 {
+  font-size: 40px;
+  color: #31e67c;
+  margin-top: 0;
+  margin-bottom: 15px;
+  text-align: center;
+  font-family: "Open Sans";
+}
+
+h2 {
+  font-size: 30px;
+  color: #28af60; 
+  margin-top: 0;
+  margin-bottom: 15px;
+  text-align: left;
+  font-family: "Open Sans";
+}
+
+h3 {
+  font-size: 25px;
+  color: #2ecc70;
+  margin-top: 0;
+  margin-bottom: 15px;
+  text-align: left;
+  font-family: "Open Sans";
+}
+
+li, p, label {
+  font-size: 20px;
+  color: #b8c1ec;
+  margin-top: 0;
+  margin-bottom: 15px;
+  text-align: left;
+  font-family: "Times New Roman";
+}
+
+a {
+  font-size: 20px;
+  color: #eebbc3;
+  margin-top: 0;
+  margin-bottom: 15px;
+  text-align: left;
+  font-family: "Times New Roman"
+}
+
+
+img { 
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+footer p{
+  width: 100%;
+  margin-top: 10px;
+  color: #f82121;
+}
+
+
+
+body{
+  display: flex; 
+  flex-direction: row;
+  row-gap: 0.2rem;  
+  column-gap: 0.5rem; 
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+body #encabezado{
+  flex-basis: 100%;
+  flex-grow: 1;
+}
+
+body #sobre_mi{
+  flex-basis: 100%;
+  flex-grow: 1;
+}
+
+body #educacion{
+  flex-basis: 49%;
+  flex-grow: 2;
+}
+
+body #habilidades{
+  flex-basis: 49%;
+  flex-grow: 2;
+}
+
+body #hobbies{
+  flex-basis: 49%;
+  flex-grow: 3;
+}
+
+body #contactame{
+  flex-basis: 49%;
+  flex-grow: 3;
+}
+
+body #contacto{
+  flex-basis: 100%;
+  flex-grow: 4;
+}
+
+input {
+  text-align: left;
+}
