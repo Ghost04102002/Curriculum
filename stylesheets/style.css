@@ -126,3 +126,11 @@ body #contacto{
 input {
   text-align: left;
 }
+
+textarea{
+  margin: 10px 0 0 0;
+  width: 80%;
+  min-height: 2em;
+  rows: 2; 
+  cols: 30;
+}
